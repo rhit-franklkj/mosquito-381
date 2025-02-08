@@ -1,5 +1,6 @@
 body {
     background: #DDDDDD;
+    font-family:'Times New Roman', Times, serif; 
 }
 
 .navbar {
@@ -31,4 +32,28 @@ p{
     width: 28em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn.nav-btn {
+    position: relative; 
+    left: 500px; 
+    top: -325px; 
+    background-color: white;
+    color: #800000; 
+}
+
+.btn.nav-btn:hover{
+    background-color: white;
+    color: #800000; 
+}
+
+.btn.nav-btn:focus{
+    background-color: white;
+    color: #800000; 
+}
+
+.center {
+    display: block; 
+    text-align: center; 
+
 }
