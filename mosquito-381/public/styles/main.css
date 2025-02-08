@@ -24,3 +24,11 @@ p{
 .current {
     border: 2px solid black; 
 }
+
+
+.image {
+    display: block;
+    width: 28em;
+    margin-left: auto;
+    margin-right: auto;
+}
