@@ -42,6 +42,25 @@ p{
     color: #800000; 
 }
 
+@media all and (max-width: 1200px){
+    .btn.nav-btn {
+        left: 400px;
+    }
+}
+
+@media all and (max-width: 992px){
+    .btn.nav-btn {
+        left: 300px; 
+    }
+}
+
+@media all and (max-width: 768px){
+    .btn.nav-btn {
+        left: 200px; 
+    }
+}
+
+
 .btn.nav-btn:hover{
     background-color: white;
     color: #800000; 
