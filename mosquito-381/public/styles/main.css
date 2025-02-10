@@ -1,6 +1,6 @@
 body {
     background: #DDDDDD;
-    font-family:'Times New Roman', Times, serif; 
+    font-family:'Times New Roman', Times, serif;
 }
 
 .navbar {
@@ -34,7 +34,7 @@ p{
     margin-right: auto;
 }
 
-.btn.nav-btn {
+.btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
     position: relative; 
     left: 500px; 
     top: -325px; 
@@ -60,16 +60,17 @@ p{
     }
 }
 
-
-.btn.nav-btn:hover{
+/* .btn.nav-btn:hover, .btn.nav-btn:focus, .btn.nav-btn:active, .btn.nav-btn:active:focus{
     background-color: white;
     color: #800000; 
+} */
+
+
+.btn.btn-primary, .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:active:focus{
+    background-color: #800000; 
+    color: white; 
 }
 
-.btn.nav-btn:focus{
-    background-color: white;
-    color: #800000; 
-}
 
 .center {
     display: block; 
