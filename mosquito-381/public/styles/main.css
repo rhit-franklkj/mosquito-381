@@ -12,6 +12,10 @@ body {
     margin-top: 75px;
 }
 
+.material-icons {
+    color: white; 
+    font-size: 1.5em; 
+}
 
 p{
     font-size: 1.5em; 
@@ -43,19 +47,19 @@ p{
 }
 
 @media all and (max-width: 1200px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 400px;
     }
 }
 
 @media all and (max-width: 992px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 300px; 
     }
 }
 
 @media all and (max-width: 768px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 200px; 
     }
 }
