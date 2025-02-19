@@ -1,6 +1,7 @@
 body {
     background: #DDDDDD;
     font-family:'Times New Roman', Times, serif;
+
 }
 
 .navbar {
@@ -12,15 +13,14 @@ body {
     margin-top: 75px;
 }
 
-.material-icons {
-    color: white; 
+
+p {
     font-size: 1.5em; 
 }
 
-p{
-    font-size: 1.5em; 
+h3 {
+    background-color: #800000;
 }
-
 
 .bmd-layout-drawer > .list-group .list-group-item {
     font-size: 1.25em; 
@@ -47,19 +47,19 @@ p{
 }
 
 @media all and (max-width: 1200px){
-    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
+    .btn.btn-primary.nav-btn {
         left: 400px;
     }
 }
 
 @media all and (max-width: 992px){
-    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
+    .btn.btn-primary.nav-btn {
         left: 300px; 
     }
 }
 
 @media all and (max-width: 768px){
-    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
+    .btn.btn-primary.nav-btn {
         left: 200px; 
     }
 }
@@ -80,4 +80,41 @@ p{
     display: block; 
     text-align: center; 
 
+}
+
+
+/* General CSS */
+
+h1 {
+    background-color: #800000;
+    color: white;
+}
+
+#container1 {
+    background-color: white;
+}
+
+#menu {
+    color: white;
+}
+
+.general-info {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#general {
+    /* display: inline-block; */
+    padding: 2px 10px;
+    color: white;
+}
+
+.general1 {
+    padding: 4px 2px;
+    text-decoration: underline;
+
+}
+
+#dunk-image {
+    background-color: #800000;
 }

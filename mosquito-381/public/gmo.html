@@ -16,7 +16,7 @@
         <div class="navbar navbar-light bg-faded">
           <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
             <span class="sr-only">Toggle drawer</span>
-            <i class="material-icons">menu</i>
+            <i class="material-icons" id="menu">menu</i>
           </button>
         </div>
       </header>
@@ -34,23 +34,25 @@
         </ul>
       </div>
       <main class="bmd-layout-content">
-        <div class="container">
-          <h1>Genetic Modification</h1>
+        <div class="container" id="container1">
+          <br>
+          <h1 id="general">Genetic Modification</h1>
+          <h2 class="general1">Consequences</h2>
           <p>The provided example of genetically modified mosquitoes being released in Florida was specifically the species <i>Aedes aegypti</i>. In terms of mosquitoes to try to modify, this is one of the two reasonable choices</p>
           <p>The other is the genus <i>Anopheles</i>, which, as discussed earlier, is the genus that spreads malaria. The majority of mosquito deaths are a result of malaria, meaning that while modifying <i>A. aegypti</i> will improve the situation, the main issue is still very apparent.</p>
           <p>Theoretically, if the same kind of technology is also able to be used on this other genus of mosquitoes, then this might be a viable option.</p>
           <p>The potential ecological issues of eradicating all mosquitoes have been reduced, but not to a sufficient degree for all risk to be eliminated. The removal of entire genera may still have some potential issues, if the genetic modifications do not create issues themselves.</p>
-          <h2>Probability</h2>
+          <h2 class="general1">Probability</h2>
           <p>The same calculations were performed, and Maple reports as such.</p>
           <img src="./images/gmo-maple.png" alt="Calculations" width="100%">
           <p>4.455 * 10^8 groups of mosquitoes would need to be released in order to completely eradicate the mosquitoes with 99% confidence.</p>
           <p>On the other hand, if we release the maximum number of possible groups, 30,000 there is a 0.0067% chance that all of the mosquitoes will be eradicated, which is almost a possibility. </p>
-          <h2>Cost</h2>
+          <h2 class="general1">Cost</h2>
           <p>Releasing all of the possible mosquitoes--those 30,000 groups--would have an initial cost of $57 billion. Considering that other methods have costs measured in trillions, this is almost reasonable. </p>
           <p>It would be an additional 10 billion dollars for each subsequent year, and this would have to be paid every year for the foreseeable future, as the probability of eradication is quite low.</p>
           <br><br>
           <a href="./conclusion.html"><button type="button" class="btn btn-primary">Conclusion</button></a>
-          <br><br><br><br><br><br><br><br>
+          <br><br><br><br>
         </div>
       </main>
     </div>
