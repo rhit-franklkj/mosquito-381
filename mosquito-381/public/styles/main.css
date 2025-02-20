@@ -85,7 +85,6 @@ h3 {
 
 }
 
-<<<<<<< HEAD
 
 /* General CSS */
 
@@ -111,6 +110,7 @@ h1 {
     /* display: inline-block; */
     padding: 2px 10px;
     color: white;
+    text-decoration: none;
 }
 
 .general1 {
@@ -122,7 +122,6 @@ h1 {
 #dunk-image {
     background-color: #800000;
 }
-=======
 h3 {
     text-decoration: underline; 
 }
@@ -135,4 +134,4 @@ h2::after {
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
   }
->>>>>>> ccf8c51c556cca3861944bdee9d06303d037fee9
+
