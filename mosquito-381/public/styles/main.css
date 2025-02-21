@@ -50,19 +50,19 @@ h3 {
 }
 
 @media all and (max-width: 1200px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 400px;
     }
 }
 
 @media all and (max-width: 992px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 300px; 
     }
 }
 
 @media all and (max-width: 768px){
-    .btn.btn-primary.nav-btn {
+    .btn.btn-primary.nav-btn, .btn.btn-primary.nav-btn:hover, .btn.btn-primary.nav-btn:focus, .btn.btn-primary.nav-btn:active, .btn.btn-primary.nav-btn:active:focus {
         left: 200px; 
     }
 }
@@ -133,5 +133,12 @@ h2::after {
     background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
+  }
+
+  .hanging-indent {
+   
+        padding-left: 36px;
+        text-indent: -36px; 
+    
   }
 
